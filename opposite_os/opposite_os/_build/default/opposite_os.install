@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/opposite_os/META"
+  "_build/install/default/lib/opposite_os/dune-package"
+  "_build/install/default/lib/opposite_os/opam"
+]
+bin: [
+  "_build/install/default/bin/opposite_os"
+]

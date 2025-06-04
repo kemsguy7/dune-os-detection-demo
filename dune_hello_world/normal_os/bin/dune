@@ -1,0 +1,4 @@
+(executable
+ (public_name normal_os)
+ (name main)
+ (libraries fmt unix normal_os))

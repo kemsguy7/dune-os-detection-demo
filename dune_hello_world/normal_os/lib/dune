@@ -1,0 +1,2 @@
+(library
+ (name normal_os))
