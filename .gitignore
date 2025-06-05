@@ -1,0 +1,11 @@
+_build/
+*.install
+
+.cm
+*.o
+*.a
+*.exe 
+
+.merlin
+*.swp
+*~
