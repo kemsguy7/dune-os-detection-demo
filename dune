@@ -1,0 +1,9 @@
+(executable
+ (name main)
+ (public_name os_detector)
+ (libraries))
+
+(rule
+ (target os_info.ml)
+ (action (with-stdout-to %{target}
+         (echo "let os = \"%{os_type}\""))))
