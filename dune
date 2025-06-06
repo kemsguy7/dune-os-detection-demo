@@ -6,4 +6,4 @@
 (rule
  (target os_info.ml)
  (action (with-stdout-to %{target}
-         (echo "let os = \"%{os_type}\""))))
+         (echo "let os = \"%{os}\"")))) 
